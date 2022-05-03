@@ -1,0 +1,89 @@
+@import '~antd/dist/antd.css';
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Cart App */
+
+.side-container {
+    background-color: white;
+    padding: 45px 70px;
+    border-radius: 15px;
+    border: 1px solid #ddd
+}
+
+.layout-container {
+    background-color: #eee;
+    padding: 50px;
+    height: 100vh;
+}
+
+.layout-container {
+    text-align: left;
+}
+
+.ant-form-item {
+    margin-bottom: 10px !important;
+}
+
+.list-container {
+    background-color: white;
+    margin: 0 30px;
+    border-radius: 15px
+}
+.list-items{
+    width: 100%;
+}
+.ant-row{
+    width: 100%;
+}
+.list-container .ant-typography{
+    margin-top:0 !important;
+}
+.final-price{color: #4171ed !important;}
+.tag{display: block;width: fit-content;padding: 3px 20px}
+.summery-container{
+    margin: 30px;
+    border-radius: 20px;
+    border:1px solid #ddd
+}
+.total-payment span ,.total-payment h3{
+    color: #4171ed !important;
+    font-weight: bold;
+}
